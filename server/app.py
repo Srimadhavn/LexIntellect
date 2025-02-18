@@ -43,7 +43,7 @@ bm25 = BM25Okapi(tokenized_cases)
 
 def search_indian_kanoon(query):
     api_url = f"https://api.indiankanoon.org/search/?formInput={query}"
-    headers = {"Authorization": "fbc3465b6aadf45fad6a0c13b835894d16c47709"}  # Replace with your API key
+    headers = {"Authorization": os.getenv("INDIAN_KANOON_API_KEY")}
     response = requests.get(api_url, headers=headers)
     if response.status_code == 200:
         return response.json().get("results", [])
