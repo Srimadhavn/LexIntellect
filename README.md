@@ -1,7 +1,7 @@
 
-# legal AI assistant
+# Legal AI assistant
 
-A legal AI assistant mainly used for predicting case strength, Contract analysis, Dispute Resolution and drafting new contract. 
+A Legal AI assistant mainly used for predicting case strength, Contract analysis, Dispute Resolution and drafting new contract. 
 
 ## Features
 
