@@ -91,7 +91,7 @@ export function DashboardLayout({ children, userRole }: DashboardLayoutProps) {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 dark:bg-gray-950/80 backdrop-blur-sm border-b border-border dark:border-gray-800">
         <div className="flex h-16 items-center justify-between px-6">
           <div className="flex items-center space-x-8">
-            <Link href="/dashboard" className="text-xl font-semibold dark:text-white hover:text-primary dark:hover:text-primary/90 transition-colors">Legal AI</Link>
+            <Link href="/dashboard" className="text-xl font-semibold dark:text-white hover:text-primary dark:hover:text-primary/90 transition-colors">LexIntellect</Link>
           </div>
 
           <div className="flex items-center gap-4">
